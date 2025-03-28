@@ -7,3 +7,5 @@ O
 contracts/expense-tracking.clar,0/5/052a4b55ebae66dcdc2072b5c08ba321924af636
 N
 contracts/fund-allocation.clar,4/3/43407d338d293748c4e862305abc734e3555985c
+O
+contracts/impact-reporting.clar,2/9/296c72169c83af5c7978c131858b6371b7f83db5
