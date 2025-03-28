@@ -1,0 +1,34 @@
+[project]
+name = 'Transparent-Charity-Donation-Tracking-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.donation-receipt]
+path = 'contracts/donation-receipt.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.expense-tracking]
+path = 'contracts/expense-tracking.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.fund-allocation]
+path = 'contracts/fund-allocation.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.impact-reporting]
+path = 'contracts/impact-reporting.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
